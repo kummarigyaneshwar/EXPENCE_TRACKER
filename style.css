@@ -1,0 +1,123 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.app {
+  max-width: 800px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+.balance-container, .cashflow-container, .transaction-container, .form-container {
+  margin-bottom: 20px;
+}
+
+.balance-container, .cashflow-container, .transaction-container {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.balance-container h2, .income-container h2, .expense-container h2, .transaction-container h2, .form-container h2 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+#balance, #income, #expense {
+  font-size: 24px;
+  font-weight: bold;
+  color: #27ae60;
+}
+
+.cashflow-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.income-container, .expense-container {
+  flex: 1;
+  padding: 10px;
+}
+
+.income-container {
+  background-color: #2ecc71;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.expense-container {
+  background-color: #e74c3c;
+  color: #fff;
+  border-radius: 8px;
+}
+
+.transaction {
+  list-style-type: none;
+  padding: 0;
+}
+
+.transaction li {
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.transaction li .income-amount {
+  color: #27ae60;
+}
+
+.transaction li .expense-amount {
+  color: #e74c3c;
+}
+
+.form-container {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
